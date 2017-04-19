@@ -1,4 +1,5 @@
 ![Mi Logo](https://github.com/gabolopez90/gabolopez90.github.io/blob/master/img/GL.ico)
+
 #To-do App
 
 Creación de una app siguendo el tutorial de [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) en youtube. 
