@@ -1,0 +1,24 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Simple to-do app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabolopez90/to-do-app.git"
+  },
+  "author": "Gabriel Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabolopez90/to-do-app/issues"
+  },
+  "homepage": "https://github.com/gabolopez90/to-do-app#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}
