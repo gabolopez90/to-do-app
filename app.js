@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-var todoController = require("/controllers/todoController.js");
+var todoController = require(__dirname+"/controllers/todoController.js");
 
 //Configurando el template engine
 app.set("view engine", "ejs");
