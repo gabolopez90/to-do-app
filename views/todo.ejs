@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="/assets/img/GL.ico" type="favicon/ico" />
+    </head>
+    <body>
+        <div id="todo-table" class="text-center">
+            <img src="/assets/img/GL.ico" alt="icon" id="icon"/>
+            <h1 class="text-center">TO-DO APP</h1>
+            <form>
+                <input type="text" name="item" placeholder="Nuevo item" id="input">
+                <button type="submit" class="btn">Añadir item</button>
+            </form>
+            <ul class="list-group">
+                <% for(var i=0; i<todos.length; i++){ %>
+                    <li class="list-group-item"><%= todos[i].item %></li>
+                <% }; %>
+            </ul>
+        </div>
+        
+        <footer>
+            <p class="text-center" id="foot">&copy; Gabriel López 2017</p>    
+        </footer>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="/assets/js/todo.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    </body>
+</html>
