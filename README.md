@@ -16,5 +16,6 @@ Realizada trabajando en el ide de [c9.io](https://c9.io), conectándo el workpla
   * JQuery
   * Node.js
   * Express
+  * EJS
   * Body Parser
   * Mongoose
