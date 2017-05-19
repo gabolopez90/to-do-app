@@ -19,3 +19,5 @@ Realizada trabajando en el ide de [c9.io](https://c9.io), conectándo el workpla
   * EJS
   * Body Parser
   * Mongoose
+
+##### Nota: Recordar que al ejecutar la app se visualiza en /todo
