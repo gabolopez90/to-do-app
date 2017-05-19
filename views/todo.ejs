@@ -3,28 +3,30 @@
     <head>
         <title>To-Do App</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
         <link href="/assets/css/style.css" rel="stylesheet" type="text/css"/>
         <link rel="shortcut icon" href="/assets/img/GL.ico" type="favicon/ico" />
     </head>
     <body>
-        <div id="todo-table" class="text-center">
-            <img src="/assets/img/GL.ico" alt="icon" id="icon"/>
+        
+        <div class="text-center">
+            <a href="https://glopez.com.ve"><img src="https://raw.githubusercontent.com/gabolopez90/gabolopez90.github.io/master/img/GL.ico" alt="icon" id="icon"/></a>
             <h1 class="text-center">TO-DO APP</h1>
-            <form method="post">
-                <input type="text" name="item" placeholder="Nuevo item" id="input">
-                <button type="submit" class="btn">Añadir item</button>
+            <form  method="post" class="pure-form">
+              <input type="text" name="item" placeholder="Nuevo item" class="pure-input-rounded" id="input">
+              <button type="submit" class="pure-button" id="btn">Añadir item</button>
             </form>
-            <ul class="list-group">
-                <% for(var i=0; i<todos.length; i++){ %>
-                    <li class="list-group-item"><%= todos[i].item %></li>
-                <% }; %>
-            </ul>
-        </div>
-        
+          <div class="container square">
+           <ul>
+            <% for(var i=0; i<todos.length; i++){ %>
+                <li><%= todos[i].item %></li>
+            <% }; %>
+           </ul>
+          </div><!--End square-->
+        </div>       
         <footer>
-            <p class="text-center" id="foot">&copy; Gabriel López 2017</p>    
+          <a href="https://glopez.com.ve"><p class="text-center" id="foot">&copy; Gabriel López, 2017</p></a>  
         </footer>
-        
         
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
