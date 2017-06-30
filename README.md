@@ -21,4 +21,4 @@ Realizada trabajando en el ide de [c9.io](https://c9.io), conectándo el workpla
   * Mongoose
   * Pure CSS
 
-##### Nota: Recordar que al ejecutar la app se visualiza en https://to-do-app-gabolopez90.c9users.io/todo
+##### Nota: Recordar que al ejecutar la app se visualiza [aquí](https://to-do-app-gabolopez90.c9users.io/todo)
