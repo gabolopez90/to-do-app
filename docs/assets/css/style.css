@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+body{
+  background: #2d1044;
+  color: white;
+  font-family: 'Kaushan Script';
+  margin-top: 3em;
+  font-size: 1.5em;
+}
+
+h1{
+    margin: 1.5em;
+}
+
+ul{
+    color: #9045cc;
+    margin-top:2em;
+}
+
+li{
+  background: #1f0733;
+  margin-bottom: 1em;
+  list-style-type: none;
+  font-size: 2em;
+}
+
+li:hover{
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+form{
+  margin-bottom: 2em;
+}
+#input{
+  color: #9045cc;
+  margin-right: 3em;
+  transition: all 0.5s ease-in-out;
+  width: 20%;
+}
+#input:focus{
+  width: 30%;
+  border: solid 2px #9045cc;
+}
+#btn{
+  background: #2d1044;
+  color: #9045cc;
+  border: #1f0733 solid 0.3em;
+  transition: hover 0.5s ease-in-out;
+  position: relative;
+  border-radius: 33%;
+  box-shadow: 5px 2px 2px #140223;
+}
+#btn:hover{
+  background: #1f0733;
+  color: white;
+  border: white solid 0.3em;
+}
+#btn:active{
+  box-shadow: none;
+}
+
+#icon{
+    margin: 2em;
+}
+
+#foot{
+  margin-top: 3em;
+  color:white;
+  font-size: 1.5em;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.square{
+  border: #1f0733 solid 0.5em;
+}
