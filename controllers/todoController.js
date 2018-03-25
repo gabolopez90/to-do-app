@@ -3,7 +3,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 var mongoose = require("mongoose");
 
 //Conectar a la base de datos
-mongoose.connect("mongodb://gabo:user@ds117271.mlab.com:17271/to-do");
+mongoose.connect(process.env.MLAB);
 
 //Crear un schema - Una especia de plano
 var todoSchema = new mongoose.Schema({
